@@ -58,7 +58,5 @@ function Login() {
         {/* Degradado de color índigo */}
       </div>
     </div>
-  );
+  )
 }
-
-export default Login;

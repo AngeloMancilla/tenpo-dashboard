@@ -6,7 +6,7 @@ interface AuthContextType {
   logout: () => void;
 }
 
-const AuthContext = createContext<AuthContextType>({
+const   AuthContext = createContext<AuthContextType>({
   token: null,
   login: () => {},
   logout: () => {},
